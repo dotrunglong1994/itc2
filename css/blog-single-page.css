@@ -1,0 +1,380 @@
+
+/*copy o file mảketing-onile-style.css va sua*/
+.after-header {
+	background: #f5f5f5;
+	color: #333;
+}
+.after-header .container{
+	padding: 20px 0px;
+}
+.after-header .container h1{
+	margin: 0 auto;
+	text-transform: uppercase;
+	float: left;
+	width: 80%;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.after-header .container ul{
+	float: right;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+}
+.after-header .container ul li{
+	display: inline-block;
+}
+.after-header .container ul li a{
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+}
+.after-header .container ul li:last-child{
+	opacity: 0.7;
+}
+.after-header .container ul li a:hover{
+	color:#054f9e;
+}
+.content{
+	padding: 30px 0px;
+	color: #444;
+}
+.wrap{
+	width: 88%;
+	margin: auto;
+	color: #444;
+}
+.content .wrap img{
+	display: block;
+}
+
+.section-top{
+	padding: 30px 0px;
+}
+.section-top .wrap{
+	width: 88%;
+	margin: auto;
+}
+.section-top .wrap img{
+	width: 100%;
+}
+
+.note ul{
+	padding: 0;
+	opacity: 0.8;
+	font-size: 12px;
+	font-style: italic;
+}
+.note ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+.note ul li a{
+	text-decoration: none;
+	color: #444;
+}
+.note ul li a:hover{
+	color: #054f9e;
+}
+
+.section-left >p{
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 1.8;
+	/*letter-spacing:0.7px;*/
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 15px;
+}
+
+.section-left article.blog-single-page{
+	padding: 0px 0px 5px 0px;
+}
+.section-left article.blog-single-page h1{
+	font-size: 30px;
+}
+.section-left article.blog-single-page p{
+	line-height: 1.8;
+	font-size: 15px;
+	text-align: justify;
+}
+.section-left article.blog-single-page .image img{
+	display: block;
+}
+.section-left article.blog-single-page .image i{
+	display: block;
+	text-align: center;
+}
+.section-left article.blog-single-page .xemthem{
+	padding: 20px 0px;
+}
+.section-left article.blog-single-page .xemthem a{
+	text-decoration: none;
+	color: #054f9e;
+	font-size: 15px;
+}
+.section-left article.blog-single-page .xemthem a:hover{
+	color: black
+}
+
+p.tomlai{
+	font-weight: normal;
+}
+
+.article-other{
+	padding: 20px 0px;
+}
+.article-other p.left{
+	float: left;
+}
+.article-other p.right{
+	float: right;
+}
+.share{
+	padding: 40px 0px;
+}
+.share strong{
+	font-size: 13px;
+	letter-spacing: 0.5px;
+}
+
+.article-other{
+	border-top: 2px solid #f5f5f5 ;
+	border-bottom: 2px solid #f5f5f5;
+}
+
+.poster{
+	margin: 40px 0px;
+	border:1px solid #ddd;
+}
+.poster h4{
+	background: #f5f5f5;
+	margin: 0px;
+	padding: 20px;
+	border-bottom:1px solid #ddd;
+	
+}
+.poster h4 a{
+	color: #0353a5;
+	text-decoration: none;
+	letter-spacing: 0.6px;
+}
+.poster img{
+	width: 14%;
+	display: inline-block;
+	/*border:1px solid #ddd;*/
+}
+.poster p{
+	width: 70%;
+	display: inline-block;
+	font-size:14px;
+	color:#555;
+	vertical-align: top;
+	line-height: 2;
+}
+
+.comment{
+	margin: 50px 0px;
+	border-top:1px solid #ddd;
+}
+.comment .row-title{
+	border-bottom: 2px solid #ddd;
+	padding: 10px 0px;
+}
+.comment .row-title:nth-child(3){
+	border-bottom: none;
+}
+.comment .row-title .comment-title,
+.comment .row-title .comment-itsvn
+{
+	float: left;
+	margin-right: 30px;
+}
+.comment .row-title .login{
+	float: right;
+	/*margin-right: 0px;*/
+}
+.comment .row-title a{
+	text-decoration: none;
+	color: #444;
+	opacity: 0.8;
+}
+.comment .row-title .comment-itsvn >a:hover,
+.comment .row-title .login >a:hover
+{
+	opacity: 1;
+}
+.comment .row-title .login{
+	position: relative;
+}
+.comment .row-title .login ul{
+	list-style: none;
+	padding:0;
+	border:2px solid grey;
+	display: none;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	background: white;
+}
+.comment .row-title .login:hover ul{
+	display: block;
+	z-index: 100;
+}
+.comment .row-title .login ul li a{
+	display: block;
+	padding: 7px 40px;
+	font-size: 13px;
+	background: #fff;
+}
+.comment .row-title .login ul li a:hover{
+	background: #2e9fff;
+}
+
+.guest{
+	width: 100%;
+}
+.guest >img{
+	display: inline-block;
+	width: 8%;
+	vertical-align: top;
+}
+.guest .discussion{
+	float: none;
+	display: inline-block;
+	width: 91%;
+	margin-right: 0px;
+	margin-top: 12px;
+	vertical-align: top;
+
+}
+.guest .discussion > textarea{
+	width: 100%;
+	/*	vertical-align:top;*/
+	padding: 10px;
+	font-size:18px;
+	border-radius:4px;
+	border: 2px solid #dbdfe4;
+}
+.guest .discussion > textarea:focus{
+	border-color: #ccc;
+    outline: none;
+
+}
+#file{
+	padding: 5px;
+	border: 2px solid #dbdfe4;
+	border-top: none;
+	background: #f6f8f9;
+}
+
+
+
+}
+.guest p{
+	font-size: 12px;
+	opacity: 0.8;
+	font-weight: 500;
+}
+.login-with{
+	width: 20%;
+	display:inline-block;
+	vertical-align: top;
+}
+.signup{
+	width: 79%;
+	display:inline-block;
+}
+.login-with ul {
+	padding: 0;
+	list-style: none;
+}
+.login-with ul li{
+	display: inline;
+
+}
+.login-with ul li a{
+	display: inline-block;
+	width: 22%;
+	opacity: 1;
+}
+.login-with ul li a img{
+	width: 100%;
+}
+.login-with ul li a:hover{
+	opacity: 1;
+}
+
+.signup form input{
+	width: 100%;
+	/*	vertical-align:top;*/
+	padding: 4px 6px;
+	font-size:13px;
+	margin: 5px 0px;
+	border-radius:4px;
+	border: 2px solid #dbdfe4;
+}
+.signup form input:focus{
+	outline: none;
+	border-color: #ccc;
+
+}
+#email, #password{
+	display: none;
+}
+.signup form button{
+	float: right;
+	/*padding: 5px 20px;*/
+	background: grey;
+	/*background: #f2f2f1;*/
+	width: 60px;
+	opacity: 0.8;
+}
+.signup form button:hover{
+	opacity: 1;
+}
+.signup form button img{
+	/*width: 100%;*/
+	width: 30px;
+	margin-bottom: 0px;
+	border:none;
+	padding: 3px;
+	background: grey;
+}
+
+.first-comment p{
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+}
+
+
+.comment-footer{
+
+}
+.comment-footer ul{
+	list-style: none;
+	padding: 0;
+
+
+}
+.comment-footer ul li{
+	display: inline-block;
+	width: 100px;
+
+}
+.comment-footer ul li:last-child{
+	float: right;
+	text-align: right;
+}
+.comment-footer ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #444;
+	opacity: 0.8;
+	font-weight: bold;
+}
+.comment-footer ul li a:hover{
+	opacity: 1;
+}

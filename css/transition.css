@@ -1,0 +1,36 @@
+/*footer*/
+.transition-transform{
+	/*background: grey;*/
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	overflow: hidden;
+}
+.transition-transform .fb{
+	transition: transform .5s;
+}
+.transition-transform .fb>img{
+	/*margin-bottom: -8px;*/
+	width: 100%;
+}
+
+.transition-transform .fb:hover{
+	transform: translate(0%, -50%);
+}
+/*policy --- opacity*/
+.policy .transition-transform{
+	width: 20px;
+	height: 20px;
+}
+.policy .transition-transform .fb{
+	transition: transform .5s, opacity.5s;
+	opacity: 0.4;
+}
+.policy .transition-transform .fb:hover{
+	opacity: 1;
+}
+/* */
+.contact-fb .transition-transform{
+	width: 28px;
+	height: 28px;
+}
